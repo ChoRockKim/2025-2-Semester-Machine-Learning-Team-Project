@@ -13,33 +13,33 @@
 <br>
 ##LSTM 분석의 각 파라미터 별 Accuracy##
 <br>
-[실험 1/16] n_layers=2, random_seed=1
+[실험 1/16] n_layers=2, random_seed=1<br>
 Test Accuracy: 97.33%
 <br>
-[실험 2/16] n_layers=2, random_seed=2
+[실험 2/16] n_layers=2, random_seed=2<br>
 Test Accuracy: 73.35%
 <br>
-[실험 3/16] n_layers=2, random_seed=3
+[실험 3/16] n_layers=2, random_seed=3<br>
 Test Accuracy: 54.53%
 <br>
-[실험 4/16] n_layers=2, random_seed=4
+[실험 4/16] n_layers=2, random_seed=4<br>
 Test Accuracy: 91.31%
 <br>
-[실험 5/16] n_layers=3, random_seed=1
+[실험 5/16] n_layers=3, random_seed=1<br>
 Test Accuracy: 94.35%
 <br>
-[실험 6/16] n_layers=3, random_seed=2
+[실험 6/16] n_layers=3, random_seed=2<br>
 Test Accuracy: 97.85%
 <br>
-[실험 7/16] n_layers=3, random_seed=3
+[실험 7/16] n_layers=3, random_seed=3<br>
 Test Accuracy: 85.05%
 <br>
-[실험 8/16] n_layers=3, random_seed=4
+[실험 8/16] n_layers=3, random_seed=4<br>
 Test Accuracy: 70.02%
 <br>
-[실험 9/16] n_layers=4, random_seed=1
+[실험 9/16] n_layers=4, random_seed=1<br>
 Test Accuracy: 70.16%
 <br>
-[실험 10/16] n_layers=4, random_seed=2
+[실험 10/16] n_layers=4, random_seed=2<br>
 Test Accuracy: 93.32%
 <br>
