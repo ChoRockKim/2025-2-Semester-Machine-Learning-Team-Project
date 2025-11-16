@@ -1,45 +1,42 @@
-**분류결과/로지스틱회귀 파일** -> 로지스틱 회귀로 진행한 4가지 케이스 각 CSV 로 정리. (epoch = max_iter) <br><br>
-**LogisticRegression.ipynb** -> 로지스틱 회귀 Colab 코드  
+## 📈 분석 결과 요약
 
-### 로지스틱 회귀의 Confusion Matrix
-<img width="223" height="164" alt="image" src="https://github.com/user-attachments/assets/48fcba29-c8ad-46b6-88d1-41577eda007c" /><br>
-테스트 데이터 정확도: 0.9667
-<br>
-<br>
-**results 파일** -> LSTM 의 각 파라미터 별 분석 결과 csv 파일. 총 16개의 파라미터 케이스에 대해 각 4개의 csv 파일 -> 총 64개의 파일.<br>
-(사실 컴퓨터가 꾸져서 11가지 경우밖에 못 했습니다....죄송합니다...)<br><br>
-**LSTM_Classification.ipynb** -> LSTM 분석한 ipynb 코드<br>
-<br>
-<br>
-### LSTM 분석의 각 파라미터 별 Accuracy
-<br>
-[실험 1/16] n_layers=2, random_seed=1<br>
-Test Accuracy: 97.33%
-<br><br>
-[실험 2/16] n_layers=2, random_seed=2<br>
-Test Accuracy: 73.35%
-<br><br>
-[실험 3/16] n_layers=2, random_seed=3<br>
-Test Accuracy: 54.53%
-<br><br>
-[실험 4/16] n_layers=2, random_seed=4<br>
-Test Accuracy: 91.31%
-<br><br>
-[실험 5/16] n_layers=3, random_seed=1<br>
-Test Accuracy: 94.35%
-<br><br>
-[실험 6/16] n_layers=3, random_seed=2<br>
-Test Accuracy: 97.85%
-<br><br>
-[실험 7/16] n_layers=3, random_seed=3<br>
-Test Accuracy: 85.05%
-<br><br>
-[실험 8/16] n_layers=3, random_seed=4<br>
-Test Accuracy: 70.02%
-<br><br>
-[실험 9/16] n_layers=4, random_seed=1<br>
-Test Accuracy: 70.16%
-<br>
-[실험 10/16] n_layers=4, random_seed=2<br>
-Test Accuracy: 93.32%
-<br>
+### 1. 로지스틱 회귀 (Logistic Regression)
+
+**📁 관련 파일**
+
+* `분류결과/로지스틱회귀/`: 로지스틱 회귀로 진행한 4가지 케이스(epoch = `max_iter`)의 CSV 결과 파일
+* `LogisticRegression.ipynb`: 로지스틱 회귀 분석 Colab 코드
+
+**📝 혼동 행렬 (Confusion Matrix)**
+
+<img width="223" height="164" alt="image" src="https://github.com/user-attachments/assets/48fcba29-c8ad-46b6-88d1-41577eda007c" />
+
+> **테스트 데이터 정확도:** 0.9667 (96.67%)
+
+---
+
+### 2. LSTM (Long Short-Term Memory)
+
+**📁 관련 파일**
+
+* `results/`: LSTM의 각 파라미터 별 분석 결과 CSV 파일.
+* `LSTM_Classification.ipynb`: LSTM 분석 Colab 코드
+
+> ℹ️ **참고:** 본래 총 16개의 파라미터 케이스를 실험하려 했는데 노트북이 구려서 10개밖에 못 했습니다...
+
+**📊 파라미터 별 정확도 (Accuracy)**
+
+(실험 10/16까지만 결과가 기재되어 있어 표로 정리했습니다.)
+
+| 실험 | `n_layers` | `random_seed` | Test Accuracy |
+| :--- | :---: | :---: | :---: |
+| 1/16 | 2 | 1 | 97.33% |
+| 2/16 | 2 | 2 | 73.35% |
+| 3/16 | 2 | 3 | 54.53% |
+| 4/16 | 2 | 4 | 91.31% |
+| 5/16 | 3 | 1 | 94.35% |
+| 6/16 | 3 | 2 | 97.85% |
+| 7/16 | 3 | 3 | 85.05% |
+| 8/16 | 3 | 4 | 70.02% |
+| 9/16 | 4 | 1 | 70.16% |
+| 10/16 | 4 | 2 | 93.32% |
